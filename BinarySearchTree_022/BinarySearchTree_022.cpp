@@ -49,7 +49,6 @@ public:
 	}
 
 
-
 	void search(string element, node*& parent, node*& currentnode) {  // this function searches the currentnode of the specified node as well as the current node of its parent
 		currentnode = ROOT;
 		parent = NULL;
@@ -61,6 +60,7 @@ public:
 				currentnode = currentnode->rightchild;
 		}
 	}
+
 
 	void inorder(node* ptr) {
 		if (ROOT == NULL) {
