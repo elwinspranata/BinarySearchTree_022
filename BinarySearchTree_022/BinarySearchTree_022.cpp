@@ -133,9 +133,9 @@ int main() {
 			obj.preorder(obj.ROOT);
 			break;
 		}
-
 		case'5': {
 			return 0;
+
 		default:
 			cout << "\nInvalid option" << endl;
 			break;
