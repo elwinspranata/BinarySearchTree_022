@@ -2,8 +2,6 @@
 #include <string>
 using namespace std;
 
-
-
 class node {
 public:
 	string info;
@@ -18,6 +16,7 @@ public:
 		rightchild = r;
 	}
 };
+
 
 class BinaryTree {
 public:
