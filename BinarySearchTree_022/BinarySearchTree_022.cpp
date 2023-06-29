@@ -40,7 +40,6 @@ public:
 			return; // EXIT
 		}
 
-
 		if (element < parent->info) {		// if the value in the data field of the new node is less than that of the parent
 			parent->leftchild = newnode; // make the left child of the parent point to the new node
 		}
@@ -48,6 +47,7 @@ public:
 			parent->rightchild = newnode; // make the left child of the parent point to the new node
 		}
 	}
+
 
 
 	void search(string element, node*& parent, node*& currentnode) {  // this function searches the currentnode of the specified node as well as the current node of its parent
