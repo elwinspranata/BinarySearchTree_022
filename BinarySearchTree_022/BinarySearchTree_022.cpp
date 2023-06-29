@@ -135,11 +135,11 @@ int main() {
 		}
 		case'5': {
 			return 0;
-
 		default:
 			cout << "\nInvalid option" << endl;
 			break;
 		}
+
 		}
 	}
 }
