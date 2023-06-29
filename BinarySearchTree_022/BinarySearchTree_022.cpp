@@ -17,7 +17,6 @@ public:
 	}
 };
 
-
 class BinaryTree {
 public:
 	node* ROOT;
@@ -25,6 +24,7 @@ public:
 	BinaryTree() {
 		ROOT = NULL; // initializing ROOT to null
 	}
+
 
 	void insert(string element) {	// insert a node in the binary search tree
 		node* newnode = new node(element, NULL, NULL); // Allocate memory for the new node
