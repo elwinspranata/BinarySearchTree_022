@@ -98,9 +98,9 @@ public:
 	}
 };
 
-
 int main() {
 	BinaryTree obj;
+
 	while (true) {
 		cout << "\nmenu" << endl;
 		cout << "1. implement insert operation" << endl;
