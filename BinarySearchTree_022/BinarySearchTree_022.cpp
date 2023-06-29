@@ -25,7 +25,6 @@ public:
 		ROOT = NULL; // initializing ROOT to null
 	}
 
-
 	void insert(string element) {	// insert a node in the binary search tree
 		node* newnode = new node(element, NULL, NULL); // Allocate memory for the new node
 		newnode->info = element; //Assign value to the data field of the new node
@@ -40,6 +39,7 @@ public:
 			ROOT = newnode; //mark the new node as ROOT
 			return; // EXIT
 		}
+
 
 		if (element < parent->info) {		// if the value in the data field of the new node is less than that of the parent
 			parent->leftchild = newnode; // make the left child of the parent point to the new node
